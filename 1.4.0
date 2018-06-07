@@ -1,0 +1,32 @@
+Collecting cookiecutter
+  Downloading https://files.pythonhosted.org/packages/16/99/1ca3a75978270288354f419e9166666801cf7e7d8df984de44a7d5d8b8d0/cookiecutter-1.6.0-py2.py3-none-any.whl (50kB)
+Collecting poyo>=0.1.0 (from cookiecutter)
+  Downloading https://files.pythonhosted.org/packages/ea/6c/62c76c12015f6a1849446fb73da59be1229312c54d6d05068275e52bf29f/poyo-0.4.1-py2.py3-none-any.whl
+Collecting jinja2>=2.7 (from cookiecutter)
+  Downloading https://files.pythonhosted.org/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinja2-2.10-py2.py3-none-any.whl (126kB)
+Collecting whichcraft>=0.4.0 (from cookiecutter)
+  Downloading https://files.pythonhosted.org/packages/60/8a/5c52e30e11672f7e3aa61f348ddae443d122bcd96bc8b785ac76dbae944b/whichcraft-0.4.1-py2.py3-none-any.whl
+Collecting requests>=2.18.0 (from cookiecutter)
+  Downloading https://files.pythonhosted.org/packages/49/df/50aa1999ab9bde74656c2919d9c0c085fd2b3775fd3eca826012bef76d8c/requests-2.18.4-py2.py3-none-any.whl (88kB)
+Collecting binaryornot>=0.2.0 (from cookiecutter)
+  Downloading https://files.pythonhosted.org/packages/24/7e/f7b6f453e6481d1e233540262ccbfcf89adcd43606f44a028d7f5fae5eb2/binaryornot-0.4.4-py2.py3-none-any.whl
+Collecting future>=0.15.2 (from cookiecutter)
+Collecting jinja2-time>=0.1.0 (from cookiecutter)
+  Downloading https://files.pythonhosted.org/packages/6a/a1/d44fa38306ffa34a7e1af09632b158e13ec89670ce491f8a15af3ebcb4e4/jinja2_time-0.2.0-py2.py3-none-any.whl
+Collecting click>=5.0 (from cookiecutter)
+  Downloading https://files.pythonhosted.org/packages/34/c1/8806f99713ddb993c5366c362b2f908f18269f8d792aff1abfd700775a77/click-6.7-py2.py3-none-any.whl (71kB)
+Collecting MarkupSafe>=0.23 (from jinja2>=2.7->cookiecutter)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\hp\.virtualenvs\pycharmprojects\listorigin\lib\site-packages (from requests>=2.18.0->cookiecutter)
+Collecting urllib3<1.23,>=1.21.1 (from requests>=2.18.0->cookiecutter)
+  Downloading https://files.pythonhosted.org/packages/63/cb/6965947c13a94236f6d4b8223e21beb4d576dc72e8130bd7880f600839b8/urllib3-1.22-py2.py3-none-any.whl (132kB)
+Collecting idna<2.7,>=2.5 (from requests>=2.18.0->cookiecutter)
+  Downloading https://files.pythonhosted.org/packages/27/cc/6dd9a3869f15c2edfab863b992838277279ce92663d334df9ecf5106f5c6/idna-2.6-py2.py3-none-any.whl (56kB)
+Collecting chardet<3.1.0,>=3.0.2 (from requests>=2.18.0->cookiecutter)
+  Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
+Collecting arrow (from jinja2-time>=0.1.0->cookiecutter)
+Collecting python-dateutil (from arrow->jinja2-time>=0.1.0->cookiecutter)
+  Downloading https://files.pythonhosted.org/packages/cf/f5/af2b09c957ace60dcfac112b669c45c8c97e32f94aa8b56da4c6d1682825/python_dateutil-2.7.3-py2.py3-none-any.whl (211kB)
+Collecting six>=1.5 (from python-dateutil->arrow->jinja2-time>=0.1.0->cookiecutter)
+  Downloading https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
+Installing collected packages: poyo, MarkupSafe, jinja2, whichcraft, urllib3, idna, chardet, requests, binaryornot, future, six, python-dateutil, arrow, jinja2-time, click, cookiecutter
+Successfully installed MarkupSafe-1.0 arrow-0.12.1 binaryornot-0.4.4 chardet-3.0.4 click-6.7 cookiecutter-1.6.0 future-0.16.0 idna-2.6 jinja2-2.10 jinja2-time-0.2.0 poyo-0.4.1 python-dateutil-2.7.3 requests-2.18.4 six-1.11.0 urllib3-1.22 whichcraft-0.4.1
