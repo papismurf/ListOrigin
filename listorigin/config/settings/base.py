@@ -60,6 +60,7 @@ DJANGO_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # 'django.contrib.humanize', # Handy template tags
+    'grappelli', # Grappelli is required to be above django.contrib.admin to work correctly
     'django.contrib.admin',
 ]
 THIRD_PARTY_APPS = [
